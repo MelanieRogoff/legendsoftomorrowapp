@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ff69b4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.photo {
+    height: 300px;
+    width: 700px;
+}
+
+td {
+    width: 189px !important;
+    height: 10px;
+}
+
+.firstCol {
+    width: 50px !important;
+}
+
+.empDir {
+    margin-top: -90px;
+    font-weight: bold;
+}
+
+.table {
+    margin-top: -110px;
+    margin-bottom: 0;
+
+}
+
+.btn {
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+    left: -20px;
+}
+
+/* iPhone 5/SE ONLY */ 
+@media (min-width: 314px) {
+    .App-header {
+          min-height: 100vh;
+          min-width: 90vh;
+    }
+    .btn {
+        position: relative;
+        left: -10px;
+    }
+    .table {
+        margin-top: -20vh;
+        width: 90vh;
+    }
+    .photo {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+
+/* Mobile Devices (phones) ONLY */ 
+@media (min-width: 360px) {
+   .App-header {
+          min-height: 100vh;
+          min-width: 90vh;
+    }
+    .btn {
+        position: relative;
+        left: -10px;
+    }
+    .table {
+        margin-top: -20vh;
+        width: 90vh;
+    }
+    .photo {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+@media (min-width: 1000px) {
+   .App-header {
+          min-height: 100vh;
+          min-width: 90vh;
+    }
+    .btn {
+        position: relative;
+        left: -10px;
+    }
+    .table {
+        margin-top: -20vh;
+        width: 400%;
+    }
+    .photo {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+@media (width: 1024px) {
+   .App-header {
+          min-height: 100vh;
+          min-width: 135vh;
+    }
+    .btn {
+        position: relative;
+        left: -10px;
+    }
+    .table {
+        margin-top: -20vh;
+        width: 1850px;
+    }
+    .photo {
+        width: 80vh;
+        height: 40vh;
+    }
+}

@@ -1,0 +1,73 @@
+[
+    {
+       "id": 1,
+       "name": "Sara Lance",
+       "title": "Chief Software Engineer",
+       "department": "Information Technology",
+       "salary": 100000
+    },
+    {
+        "id": 2,
+        "name": "Gary Greene",
+        "title": "Junior Junior Financial Analyst",
+        "department": "Finance",
+        "salary": 35000
+      },
+      {
+        "id": 3,
+        "name": "Mick Rory",
+        "title": "Chief Compliance Officer",
+        "department": "Human Resources",
+        "salary": 100000
+      },
+      {
+        "id": 4,
+        "name": "Nate Heywood",
+        "title": "Compliance Analyst",
+        "department": "Human Resources",
+        "salary": 100000
+      },
+      {
+        "id": 5,
+        "name": "Rip Hunter",
+        "title": "Chief Financial Officer",
+        "department": "Finance",
+        "salary": 100000
+      },
+      {
+        "id": 6,
+        "name": "Professor Martin Stein",
+        "title": "Chief Research Officer",
+        "department": "Innovation",
+        "salary": 100000
+      },
+      {
+        "id": 7,
+        "name": "Doctor Ray Palmer",
+        "title": "Chief Sales Officer",
+        "department": "Sales",
+        "salary": 100000
+      },
+      {
+        "id": 8,
+        "name": "Jefferson Jackson",
+        "title": "Junior Researcher",
+        "department": "Innovation",
+        "salary": 40000
+      },
+      {
+        "id": 9,
+        "name": "Amaya Jiwe",
+        "title": "Software Engineer",
+        "department": "Information Technology",
+        "salary": 80000
+      },
+      {
+        "id": 10,
+        "name": "Nora Darhk",
+        "title": "Sales Lead",
+        "department": "Sales",
+        "salary": 45000
+      }
+  ]
+  
