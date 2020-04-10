@@ -4,6 +4,8 @@ import image from "./employees.jpg"; //use import, just call it image
 import Buttons from "./Buttons.js";
 import Tablerender from "./components/Tables/Tablerender.js";
 import Users from "./Users.json";
+import ag from "./agbeat.mp3";
+
 
 export class App extends React.Component {
 
@@ -37,6 +39,7 @@ render() {
         <img src={image} className="photo" alt="employees" /> 
             <Buttons functionOne={this.handleSorting} //functionOne=property of props in Buttons.js - don't need to do onClick bc we just need to do the property of props & give it its corr value. Same goes for functionTwo & any other property we give to props that gets passed into here.   
             functionTwo={this.handleFiltering} /> 
+            <audio id="ag" controls src={ag}></audio>
       </header>
             <Tablerender Users={this.state.Users} /> 
             {/* Changing Users to this.state.Users to be dynamic */}

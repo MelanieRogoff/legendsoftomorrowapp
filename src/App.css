@@ -8,6 +8,10 @@
   }
 }
 
+#ag {
+    margin-top: 20px;
+    height: 40px;
+}
 .App-header {
   background-color: #ff69b4;
   min-height: 100vh;
