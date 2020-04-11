@@ -58,7 +58,6 @@
   .table {
       margin-top: -60px;
       margin-bottom: 0;
-  
   }
   
   .btn {
@@ -68,3 +67,21 @@
       left: -20px;
   }
  
+@media (width: 414px) {
+    .App-header {
+        width: 58vh;
+    }
+    .table {
+        margin-top: -60px;
+        margin-bottom: 0;
+        width: 10px;
+    }
+    .photo {
+        width: 300px;
+        height: 100px;
+    }
+    .btn {
+        position: relative;
+        left: 80px;
+    }
+}
