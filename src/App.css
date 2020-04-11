@@ -148,7 +148,7 @@ td {
 @media (width: 1125px) {
     .App-header {
            min-height: 100vh;
-           width: 1900px;
+           min-width: 90vh;
      }
      .btn {
          position: relative;
@@ -156,7 +156,7 @@ td {
      }
      .table {
          margin-top: -20vh;
-         width: 1900px;
+         width: 2300px;
      }
      .photo {
          width: 80vh;
@@ -182,3 +182,22 @@ td {
         height: 40vh;
     }
 }
+
+@media (width: 1242px) {
+    .App-header {
+           min-height: 80vh;
+           min-width: 70vh;
+     }
+     .btn {
+         position: relative;
+         left: -10px;
+     }
+     .table {
+         margin-top: -640px;
+         width: 1880px;
+     }
+     .photo {
+         width: 60vh;
+         height: 20vh;
+     }
+ }
