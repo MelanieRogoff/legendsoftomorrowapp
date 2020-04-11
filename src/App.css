@@ -18,8 +18,8 @@
   }
   
   .photo {
-      height: 300px;
-      width: 700px;
+      height: 200px;
+      width: 400px;
   }
   
   td {
@@ -48,7 +48,7 @@
       margin-top: 20px;
       margin-left: 20px;
       position: relative;
-      left: -20px;
+      left: -0px;
   }
  
 @media (width: 375px) {
@@ -65,6 +65,14 @@
     .btn {
         position: relative;
         left: 20px;
+    }
+
+}
+
+@media (width: 414px) {
+    .btn {
+        position: relative;
+        left: 70px;
     }
 
 }
