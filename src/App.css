@@ -59,15 +59,12 @@ td {
 
         .App-header {
             margin-top: -150px;
-            width: 60vh;
+            width: 80vh;
      }
-        .photo {
-            width: 330px;
-        }
-
+    
         .table {
             margin-top: -200px;
-            width: 60vh;
+            width: 80vh;
         }
         .btn {
             margin-left: 16vh;
