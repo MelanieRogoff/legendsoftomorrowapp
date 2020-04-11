@@ -69,19 +69,16 @@
  
 @media (width: 414px) {
     .App-header {
-        width: 58vh;
+        width: 100vh;
     }
     .table {
         margin-top: -60px;
         margin-bottom: 0;
-        width: 10px;
+        width: 100vh;
     }
     .photo {
         width: 300px;
         height: 100px;
     }
-    .btn {
-        position: relative;
-        left: 80px;
-    }
+
 }
