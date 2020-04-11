@@ -4,7 +4,7 @@ import Table from "./Table.js";
 function Tablerender(props) {
     return (
   
-    <table className="table table-dark"> 
+    <table className="table table-dark tableRender"> 
     <thead> 
         <tr>
             <th className="firstCol">ID </th>

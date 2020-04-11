@@ -2,12 +2,6 @@
     text-align: center;
   }
   
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
   #ag {
       margin-top: 10px;
       height: 40px;
@@ -23,19 +17,6 @@
     color: white;
   }
   
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
   .photo {
       height: 300px;
       width: 700px;
@@ -46,17 +27,20 @@
       height: 10px;
   }
   
+.table td, .table th {
+    padding: .25rem;
+}
   .firstCol {
       width: 50px !important;
   }
   
   .empDir {
-      margin-top: -80px;
+      margin-top: -60px;
       font-weight: bold;
   }
   
   .table {
-      margin-top: -60px;
+      margin-top: -50px;
       margin-bottom: 0;
   }
   
@@ -67,13 +51,12 @@
       left: -20px;
   }
  
-@media (min-width: 374px) {
+@media (width: 375px) {
     
     .table {
         margin-top: -60px;
         margin-bottom: 0;
-        width: -10px !important;
-        padding: .25rem;
+        width: -100px;
     }
     .photo {
         width: 300px;
@@ -81,6 +64,7 @@
     }
     .btn {
         position: relative;
-        left: 30px;
+        left: 20px;
     }
+
 }
