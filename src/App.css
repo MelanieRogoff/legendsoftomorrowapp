@@ -13,8 +13,8 @@
     height: 40px;
 }
 .App-header {
+   height: 110vh;
   background-color: #ff69b4;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,20 +27,6 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.photo {
-    height: 300px;
-    width: 700px;
-}
-
 td {
     width: 189px !important;
     height: 10px;
@@ -51,12 +37,12 @@ td {
 }
 
 .empDir {
-    margin-top: -90px;
+    margin-top: -30px;
     font-weight: bold;
 }
 
 .table {
-    margin-top: -110px;
+    margin-top: -80px;
     margin-bottom: 0;
 }
 
@@ -66,138 +52,3 @@ td {
     position: relative;
     left: -20px;
 }
-
-/* iPhone 5/SE ONLY */ 
-@media (width: 314px) {
-    .App-header {
-          min-height: 100vh;
-          min-width: 90vh;
-    }
-    .btn {
-        position: relative;
-        left: -10px;
-    }
-    .table {
-        margin-top: -20vh;
-        width: 90vh;
-    }
-    .photo {
-        width: 80vh;
-        height: 40vh;
-    }
-}
-
-@media (min-width: 154px) {
-    .App-header {
-          min-height: 100vh;
-          min-width: 90vh;
-    }
-    .btn {
-        position: relative;
-        left: -10px;
-    }
-    .table {
-        margin-top: -20vh;
-        width: 90vh;
-    }
-    .photo {
-        width: 80vh;
-        height: 40vh;
-    }
-}
-/* Mobile Devices (phones) ONLY */ 
-@media (min-width: 360px) {
-   .App-header {
-          min-height: 100vh;
-          min-width: 190vh;
-    }
-    .btn {
-        position: relative;
-        left: -10px;
-    }
-    .table {
-        margin-top: -20vh;
-        width: 190vh;
-    }
-    .photo {
-        width: 80vh;
-        height: 40vh;
-    }
-}
-
-@media (min-width: 1000px) {
-   .App-header {
-          min-height: 100vh;
-          min-width: 90vh;
-    }
-    .btn {
-        position: relative;
-        left: -10px;
-    }
-    .table {
-        margin-top: -20vh;
-        width: 400%;
-    }
-    .photo {
-        width: 80vh;
-        height: 40vh;
-    }
-}
-
-
-@media (width: 1125px) {
-    .App-header {
-           min-height: 100vh;
-           min-width: 90vh;
-     }
-     .btn {
-         position: relative;
-         left: -10px;
-     }
-     .table {
-         margin-top: -20vh;
-         width: 2300px;
-     }
-     .photo {
-         width: 80vh;
-         height: 40vh;
-     }
- }
- 
-@media (width: 1024px) {
-   .App-header {
-          min-height: 100vh;
-          min-width: 135vh;
-    }
-    .btn {
-        position: relative;
-        left: -10px;
-    }
-    .table {
-        margin-top: -20vh;
-        width: 1850px;
-    }
-    .photo {
-        width: 80vh;
-        height: 40vh;
-    }
-}
-
-@media (width: 1242px) {
-    .App-header {
-           min-height: 80vh;
-           min-width: 70vh;
-     }
-     .btn {
-         position: relative;
-         left: -10px;
-     }
-     .table {
-         margin-top: -640px;
-         width: 1880px;
-     }
-     .photo {
-         width: 60vh;
-         height: 20vh;
-     }
- }
