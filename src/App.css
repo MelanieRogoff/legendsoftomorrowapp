@@ -54,19 +54,19 @@ td {
 }
 
 /* 1792x828px at 326ppi */
-@media (min-width: 190px) 
-    and (min-height: 800px)  {
+@media (min-width: 400px)  {
 
         .App-header {
             margin-top: -150px;
-            width: 80vh;
+            width: 700px;
      }
     
         .table {
             margin-top: -200px;
-            width: 180vh;
+            width: 700px;
         }
-        .btn {
-            margin-left: 16vh;
+        .photo {
+            width: 400px;
         }
+       
     }
