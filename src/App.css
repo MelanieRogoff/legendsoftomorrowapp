@@ -9,7 +9,7 @@
   }
   
   #ag {
-      margin-top: 20px;
+      margin-top: 10px;
       height: 40px;
   }
   .App-header {
@@ -203,4 +203,29 @@
          width: 80vh;
          height: 40vh;
      }
+ }
+
+
+ @media (min-width: 120px) and (min-height: 399px) {
+    .App-header {
+        height: 600px;
+        min-width: 100vh;
+     }
+     .btn {
+         margin-top: 10px;
+         margin-left: 125px;
+         height: 40px;
+         width: 250px;
+         word-wrap: break-word !important;
+     }
+     .table {
+         margin-top: -40px;
+         width: 100vh;
+     }
+     .photo {
+        margin-top: 10px;
+        width: 70vh;
+        height: 40vh;
+    }
+
  }
