@@ -58,7 +58,6 @@ td {
 .table {
     margin-top: -110px;
     margin-bottom: 0;
-
 }
 
 .btn {
@@ -69,7 +68,7 @@ td {
 }
 
 /* iPhone 5/SE ONLY */ 
-@media (min-width: 314px) {
+@media (width: 314px) {
     .App-header {
           min-height: 100vh;
           min-width: 90vh;
@@ -88,10 +87,8 @@ td {
     }
 }
 
-
-/* Mobile Devices (phones) ONLY */ 
-@media (min-width: 360px) {
-   .App-header {
+@media (min-width: 154px) {
+    .App-header {
           min-height: 100vh;
           min-width: 90vh;
     }
@@ -102,6 +99,25 @@ td {
     .table {
         margin-top: -20vh;
         width: 90vh;
+    }
+    .photo {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+/* Mobile Devices (phones) ONLY */ 
+@media (min-width: 360px) {
+   .App-header {
+          min-height: 100vh;
+          min-width: 190vh;
+    }
+    .btn {
+        position: relative;
+        left: -10px;
+    }
+    .table {
+        margin-top: -20vh;
+        width: 190vh;
     }
     .photo {
         width: 80vh;
