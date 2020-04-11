@@ -52,3 +52,21 @@ td {
     position: relative;
     left: -20px;
 }
+
+/* 1792x828px at 326ppi */
+@media (min-width: 414px) 
+    and (min-height: 800px)  {
+
+        .App-header {
+            margin-top: -150px;
+            width: 70vh;
+     }
+        .photo {
+            width: 50vh;
+        }
+
+        .table {
+            margin-top: -200px;
+            width: 70vh;
+        }
+    }
