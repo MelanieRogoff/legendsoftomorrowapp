@@ -69,7 +69,7 @@
   }
   
   /* iPhone 5/SE ONLY */ 
-  @media (width: 314px) {
+  @media (min-width: 314px) {
       .App-header {
             min-height: 100vh;
             min-width: 90vh;
@@ -109,10 +109,10 @@
       }
   }
   
-  @media (width: 1000px) {
+  @media (min-width: 1000px) {
      .App-header {
             min-height: 100vh;
-            min-width: 100vh;
+            min-width: 90vh;
       }
       .btn {
           position: relative;
@@ -130,80 +130,62 @@
   
   @media (width: 1024px) {
      .App-header {
-            min-height: 900px;
-            width: 100vh;
+            min-height: 100vh;
+            min-width: 135vh;
       }
       .btn {
           position: relative;
           left: -10px;
       }
       .table {
-          margin-top: -200px;
-          width: 100vh;
-          position: relative;
+          margin-top: -20vh;
+          width: 1850px;
       }
       .photo {
-          width: 30vh;
-          height: 10vh;
+          width: 80vh;
+          height: 40vh;
       }
   }
 
-  @media (width: 1125px) {
+  @media (min-width: 1090px) {
     .App-header {
-           min-height: 500px;
-           min-width: 30px;
-     }
-     .btn {
-         position: relative;
-         left: -10px;
-     }
+        min-width: 1100px;
+  }
      .table {
-         margin-top: -100px;
-         width: 1125px;
-         position: relative;
-     }
-     .photo {
-         width: 500px;
-         height: 180px;
+         margin-top: -20vh;
+         width: 1240px;
      }
  }
 
- @media (width: 768px) {
-    .App-header {
-           min-height: 500px;
-           min-width: 100vh;
-     }
-     .btn {
-         position: relative;
-         left: -10px;
-     }
-     .table {
-         margin-top: -100px;
-         width: 100vh;
-         position: relative;
-     }
-     .photo {
-         width: 500px;
-         height: 180px;
-     }
- }
+ @media (min-height: 2436px) {
+    .table {
+        margin-top: -20vh;
+        width: 2190px;
+    }
+}
 
- @media (width: 828px) {
+@media (min-height: 2688px) {
+    .table {
+        margin-top: -20vh;
+        width: 2420px;
+    }
+}
+
+@media (min-width: 230px) and (height: 1091px) {
     .App-header {
-           min-height: 50vh;
-           min-width: 1790px;
-     }
-     .btn {
-         position: relative;
-         left: -10px;
-     }
-     .table {
-         margin-top: -100px;
-         width: 100vh;
-         position: relative;
-     }
-     .photo {
-         width: 700px;
-         height: 280px;
-     }
- }
+        min-height: 100vh;
+        min-width: 115vh;
+  }
+  .btn {
+      position: relative;
+      left: -10px;
+  }
+  .table {
+      margin-top: -20vh;
+      width: 1250px;
+  }
+  .photo {
+      width: 80vh;
+      height: 40vh;
+  }
+}
