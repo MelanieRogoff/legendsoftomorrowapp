@@ -146,3 +146,23 @@
           height: 40vh;
       }
   }
+
+   
+  @media (width: 1125px) and (height: 1896px) {
+    .App-header {
+           min-height: 100vh;
+           min-width: 100vh;
+     }
+     .btn {
+         position: relative;
+         left: -10px;
+     }
+     .table {
+         margin-top: -20vh;
+         width: 100vh;
+     }
+     .photo {
+         width: 80vh;
+         height: 40vh;
+     }
+ }
